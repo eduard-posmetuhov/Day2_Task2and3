@@ -14,10 +14,10 @@ namespace TestConsole
         {
             try
             {
-                int a = int.MaxValue;
+                int a = -1;
                 Console.WriteLine("{0:X}", a);
                 string s = String.Format(new CustomHexProvider.CustomHexProvider(), "{0:CH}", a);
-               // Console.WriteLine(s);
+                Console.WriteLine(s);
                 double ts; 
                 Console.WriteLine("НОД={0} Время={1} мс",Euclidian.Euclidian.GreatestCommonDivisor(out ts,96, 72),ts);
                // Console.WriteLine(Euclidian.Euclidian.GreatestCommonDivisor(78, 294, 570));

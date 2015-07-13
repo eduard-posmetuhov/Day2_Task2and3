@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Euclidian.Test", "Euclidian
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryEuclidian.Test", "BinaryEuclidian.Test\BinaryEuclidian.Test.csproj", "{D43B787A-1184-4D55-9ADF-2C337E0836C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{B70366A0-3AEC-4F47-9AEE-5AD7BCCB68C0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,10 +45,6 @@ Global
 		{D43B787A-1184-4D55-9ADF-2C337E0836C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D43B787A-1184-4D55-9ADF-2C337E0836C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D43B787A-1184-4D55-9ADF-2C337E0836C1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B70366A0-3AEC-4F47-9AEE-5AD7BCCB68C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B70366A0-3AEC-4F47-9AEE-5AD7BCCB68C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B70366A0-3AEC-4F47-9AEE-5AD7BCCB68C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B70366A0-3AEC-4F47-9AEE-5AD7BCCB68C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
