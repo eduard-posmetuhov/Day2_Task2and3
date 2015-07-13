@@ -29,7 +29,11 @@ namespace CustomHexProvider
             //string numericString = arg.ToString();
             StringBuilder returnString = new StringBuilder();
                         
-                int numeric = (int)arg;
+                
+            int numeric;
+            string s = arg.ToString();
+            if (!Int32.TryParse(arg.ToString(), out numeric))
+                throw new InvalidCastException("Неверный формат аргумента");
             
             bool negative = false;
             if (format == "CH")

@@ -35,7 +35,7 @@ namespace CustomHexProvider.Test
             }
             catch (InvalidCastException e)
             {
-                StringAssert.Contains(e.Message, "Specified cast is not valid");
+                StringAssert.Contains(e.Message, "Неверный формат аргумента");
             }
         }
 
@@ -68,7 +68,7 @@ namespace CustomHexProvider.Test
             }
             catch (InvalidCastException e)
             {
-                StringAssert.Contains(e.Message, "Specified cast is not valid");
+                StringAssert.Contains(e.Message, "Неверный формат аргумента");
             }
         }
     }

@@ -23,7 +23,7 @@ namespace BinaryEuclidian
         }
         public static int GCD(int a, int b, int c)
         {
-            return GCD(GCD(a,b),b);
+            return GCD(GCD(a,b),c);
         }
         public static int GCD(params int[]arr)
         {
